@@ -31,5 +31,8 @@ int main()
         cout << final_array[i] << endl;
     }
     
+    delete [] final_array;
+    
+    
 	return 0;
 }
